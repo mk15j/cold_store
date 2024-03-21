@@ -19,8 +19,8 @@ def generate_map(data):
     return m
 
 # Streamlit app
-st.title('Map with Latitude and Longitude')
-st.write('Upload an Excel file with columns: Name, Latitude, Longitude, Icon Color, Description')
+st.title('Cold Store_Merchant Exporters')
+st.write('Upload Merchant_Exporters_ME.xlsx Excel file')
 
 # File upload
 uploaded_file = st.file_uploader("Choose an Excel file", type="xlsx")
